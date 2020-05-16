@@ -2,7 +2,7 @@
 
 Simple pure static HTML/CSS page of a restaurant using SASS. 
 
-![LeScone](https://user-images.githubusercontent.com/52302576/82131393-343f8000-97ab-11ea-950e-2c2b3e05e518.png)
+![le-scone](https://user-images.githubusercontent.com/52302576/82131822-baf65c00-97af-11ea-96fb-8c86670e86e4.png)
 
 ## Getting Started
 
