@@ -1,0 +1,47 @@
+@import 'variaveis-e-mixins';
+@import 'grid';
+
+body {
+  background-color: $bege-claro;
+  border: 10px solid $bege-medio;
+  color: $cinza;
+
+  @include d(s) {
+    border: none;
+  }
+}
+
+
+img {
+  display: block;
+
+  //não contorce a imagem
+  max-width: 100%;
+}
+
+p {
+  @include tipo-1(18);
+  // line-height: 1.6em;
+}
+
+.titulo {
+  @include tipo-1(18);
+  text-transform: uppercase;
+
+  @include d(s) {
+    margin-bottom: 40px;
+  }
+
+  &::after {
+    content: '';
+    display: block;
+    // position: relative;
+    // left: 10px;
+    width: 60%;
+    float: right;
+    height: 2px;
+    background: $cinza;
+    margin-top: 14px;
+
+  }
+}
