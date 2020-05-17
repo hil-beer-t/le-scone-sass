@@ -1,4 +1,4 @@
-# Le Scone
+# [Le Scone](https://hil-beer-t.github.io/le-scone-sass/)
 
 Simple pure static HTML/CSS page of a restaurant using SASS. 
 
